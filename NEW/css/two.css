@@ -1,0 +1,142 @@
+body{
+	font-size: 18px;
+	background:url(../img/F.png);
+	}
+a{
+	text-decoration: none;
+	color: #333;
+	}
+header,#banner,#main{
+	width:1000px;
+	margin: 0 auto;
+    }
+header{
+	overflow: hidden;
+	}
+nav{
+	background-color: black;
+}
+nav ul{
+	width: 1200px;
+	margin: 0 auto;
+	display: inline;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	width: 120px;
+	text-align: center;
+	position: relative;
+}
+nav input{
+	float: right;
+	margin: 9px;
+	padding: 7px;
+}
+a{
+	text-decoration: none;
+}
+nav .A>li:last-child{     /*导航栏*/
+	background-color: orange;
+}
+nav ul li .one :hover{
+	background-color:red;
+}
+nav ul li a:link,nav ul li a:visited{
+	color: #fff;
+	font-weight: bold;
+}
+nav ul li ol{
+	position: absolute;
+	background-color:red;
+	display: none;
+}
+nav ul li:hover ol{
+	display: block;
+}
+nav img{
+	height: 30px;
+	width: 100px;
+}		
+aside{
+	display: inline;
+	margin: 30px;
+	color: black;
+	width: 240px;
+	float: left;
+	background: white;
+	opacity: 0.6;
+}
+aside h1{
+	color: red;
+	width: 260px;
+	font-size: 20px;
+	border-bottom: 1px solid #CCC;
+	margin: 10px 0;
+	padding-bottom: 10px;
+}
+article h1 span{
+	border-bottom: 3px solid;
+	padding-bottom: 9px;
+}
+aside ul{
+	width: 200px;
+}
+aside ul li{
+	padding: 10px 0;
+	border-bottom: 1px dashed #ccc;
+}
+aside ul li a{
+	color: black;
+}
+aside ul li a:hover{
+	color: red;
+}
+.right{
+	width: 670px;
+	float: left;
+	padding: 15px;
+}
+.right h2{
+	color: red;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+}
+h2{
+	padding-left:5px
+}
+.right h3{
+	color: red;
+	font-size: 18px;
+	margin: 10px 0;
+}
+.right p{
+	line-height: 2em;
+	text-indent: 2em;
+}
+section p{
+	color: white;
+}
+h1 h2 h3{
+	color: red;
+}
+div img{
+	width: 1000px;
+	height: 500px;
+	
+}
+
+#main img{
+	margin-top: 50px;
+	display: inline;
+}
+#test1{
+    background-color: aliceblue;
+    position: fixed;
+    right:10px;
+    top:620px;
+}
+#test1 img{
+	width: 130px;
+	height: 130px;  
+}

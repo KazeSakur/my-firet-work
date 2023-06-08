@@ -1,0 +1,286 @@
+body{
+	font-size: 18px;
+	background: url(../img/F.png);
+}
+ .bjimg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -10;
+      object-fit: cover;   
+    }
+header{
+	width: 1200px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.logo{
+	height: 77px;
+	background:url(../img/logo.png) no-repeat;
+	float: left;
+}
+@font-face {
+	font-family:logofont;
+	src: url(../img/fzybsjt.ttf);
+}
+.logo p{
+	margin-left: 100px;
+	margin-top:initial;
+}
+.logo p:first-child{
+	font-family:logofont;
+	font-size: 22px;
+	color: white;
+	padding: 5px 0;
+}
+.logo p:last-child{
+	font-style: italic;
+	font-size: 14px;
+	margin-top: 10px;
+	color: white;
+}
+form{
+	float: right;
+}
+form p{
+	font-size: 18px;
+	color: red;
+	font-style: italic;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+form input{
+	padding: 5px 10px;
+}
+form input[type="text"]{
+	border: 1px solid #006E85;
+}
+form input[type="submit"]{
+	border: none;
+	background-color: red;
+	color: #fff;
+	border-radius: 5px;
+	width: 60px;
+}
+nav{
+	background:black;
+}
+nav ul{
+	width: 1200px;
+	display: inline;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	width: 120px;
+	text-align: center;
+	position: relative;
+}
+nav input{
+	float: right;
+	margin: 9px;
+	padding: 7px;
+}
+a{
+	text-decoration: none;
+}
+nav .A>li:first-child{     /*导航栏*/
+	background-color: orange;
+}
+nav ul li .one :hover{
+	background-color:red;
+}
+nav ul li a:link,nav ul li a:visited{
+	color: #fff;
+	font-weight: bold;
+}
+nav ul li ol{
+	position: absolute;
+	background-color:red;
+	display: none;
+}
+nav ul li:hover ol{
+	display: block;
+}
+nav img{
+	height: 30px;
+	width: 100px;
+}				
+@keyframes lunbo{
+	from{
+		background:url(../img/A.png);
+	}
+	33%{
+		background: url(../img/B.png);
+	}
+	70%{
+		background: url(../img/C.png);
+	}
+	to{
+		background: url(../img/E.png);
+	}
+}
+.banner{
+	height: 600px;
+	background: url(../img/E.png) no-repeat;
+	animation: lunbo 10s infinite;
+}
+.intro{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-top: 100px;
+	box-shadow: 3px 3px 10px gray;
+	padding: 20px;
+	z-index: 99;
+	background-color: #fff;
+	background: url(../img/32312.jpg);
+	background-color: #FEDBCF;
+    opacity:0.6;
+  
+}
+.intro p:first-child{
+	width: 580px;
+	float: left;
+	line-height: 3em;
+	text-indent: 2em;  
+}
+.intro p:last-child{
+	float: right;
+}
+.intro img{
+	width: 580px;
+	height: 400px;
+}
+.case{
+
+	width: 1200px;
+	margin: 30px auto;
+}
+.case h1,.case h2,.case h3,.case>p{
+	text-align: center;
+	color: red;
+}
+.case ul{
+	overflow: hidden;
+}
+.case ul li{
+	float: left;
+	margin: 20px 75px 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+.case ul li:nth-child(3n){
+	margin-right: 0;
+}
+.case ul li img{
+	width: 335px;
+	height: 230px;
+}
+.case ul li p{
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 350px;
+	line-height: 50px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	transition: all 0.5s;
+}
+.case ul li p strong{
+	display: block;
+}
+.case ul li:hover p{
+	top: 0;
+	height: 230px;
+	transition: all 0.5s;
+}
+
+.news h1,.partner h1{
+	text-align: center;
+	margin: 30px 0;
+	color: orangered;
+}
+.news h1 i.fa,.partner h1 i.fa{
+	color: orangered;
+	text-shadow: 3px 3px 5px gray;
+}
+.partner{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.partner img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.partner img:nth-child(5n){
+	margin-right: 0;
+}
+.partner img:hover{
+	transform: rotate(360deg);
+	transition: all 0.5s;
+}
+footer{
+	height: 170px;
+	background-color: black;
+}
+footer .center{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 5px 0;
+	margin-top: 20px;
+}
+footer p{
+	float: left;
+	color: #fff;
+	line-height: 50px;
+}
+footer p a:link,footer p a:visited{
+	color: #fff;
+}
+footer img{
+	float: right;
+	width: 150px;
+}
+:root{
+	font-family: "微软雅黑";
+}
+.adv img{
+	width: 100px;
+	height: 100px;
+}
+.adv{
+	width: 100px;
+	height: 130px;
+	float: right; 
+	background: white; 
+}
+.adv{
+	top: 80px;
+	border: 1px solid gray;
+	position: absolute;
+	right: 9px;
+	position: fixed;
+}
+.adv span{
+	margin-top: auto;
+	font-size: 15px;
+	float: right;
+}
+#adv_btn{
+	text-align: right;
+}
+#adv_btn:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
